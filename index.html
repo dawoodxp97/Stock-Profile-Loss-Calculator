@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Profile & Loss Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="confetti" class="confetti">
+      <img src="https://acegif.com/wp-content/gif/confetti-40.gif" alt="" />
+    </div>
+    <div class="l_lottie">
+      <img
+        src="https://cdni.iconscout.com/illustration/premium/thumb/stock-market-investment-4268268-3569430.png"
+        alt=""
+      />
+    </div>
+    <header>
+      <h1>🚀 Stock Profile & Loss Calculator 💥</h1>
+    </header>
+    <main>
+      <form id="is-submit">
+        <label class="input-label" for="initial-price">
+          Intial Price
+          <input
+            required
+            class="input"
+            type="number"
+            id="initial-price"
+            placeholder="Enter Initial Price Here"
+        /></label>
+        <label class="input-label" for="stocks-quantity">
+          Quantity of Stocks
+          <input
+            required
+            class="input"
+            type="number"
+            id="stocks-quantity"
+            placeholder="Enter the Number of Stocks bought"
+          />
+        </label>
+        <label class="input-label" for="current-price"
+          >Current Price
+          <input
+            required
+            class="input"
+            type="number"
+            id="current-price"
+            placeholder="Enter the Current Price of the stocks"
+        /></label>
+
+        <button type="submit" class="btn-check">Tell Me!!</button>
+      </form>
+      <div id="output-box" class="output"></div>
+    </main>
+    <footer>
+      <p>© | 2021 | Shaik Dawood</p>
+      <ul class="footer-list">
+        <li>
+          <a class="links" href="https://github.com/dawoodxp97"
+            ><i class="uil uil-github"></i> Github
+          </a>
+        </li>
+        <li>
+          <a class="links" href="https://twitter.com/dawoodxp97"
+            ><i class="uil uil-twitter"></i> Twitter
+          </a>
+        </li>
+        <li>
+          <a class="links" href="https://www.linkedin.com/in/skd-a9p6r">
+            <i class="uil uil-linkedin"></i> Linkedin
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/index.js"></script>
+  </body>
+</html>
